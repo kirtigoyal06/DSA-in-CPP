@@ -1,5 +1,4 @@
 // Problem: Two Sum
-// Sheet: Love Babbar
 // Difficulty: Easy
 // Approach: Hash Map
 class Solution {

@@ -1,3 +1,6 @@
+// Problem: Rotate an array to the right by k steps.
+// Approach: Reverse the entire array, then reverse the first k elements
+// and the remaining elements separately.
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {

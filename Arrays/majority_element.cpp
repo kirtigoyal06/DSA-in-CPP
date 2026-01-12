@@ -1,3 +1,6 @@
+// Problem: Find the element that appears more than ⌊n/2⌋ times in the array.
+// Approach: Use Moore’s Voting Algorithm to find the majority element
+// by canceling out different elements.
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {

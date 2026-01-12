@@ -1,3 +1,5 @@
+// Problem: Check if two strings are anagrams (contain the same characters in any order).
+// Approach: Count the frequency of each character in both strings and compare the counts.
 class Solution {
 public:
     bool isAnagram(string s, string t) {

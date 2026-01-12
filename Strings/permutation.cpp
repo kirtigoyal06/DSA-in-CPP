@@ -1,3 +1,6 @@
+// Problem: Check if one string's permutation exists as a substring in another string.
+// Approach: Use a sliding window of size s1.length() over s2, maintain character frequency counts,
+// and compare with s1's frequency to detect a valid permutation.
 class Solution {
 public:
     bool checkInclusion(string s1, string s2) {

@@ -1,3 +1,7 @@
+// Problem: Move all zeroes to the end of the array while maintaining
+// the relative order of non-zero elements.
+// Approach: Use two pointers; place non-zero elements at the front
+// and fill the remaining positions with zeroes.
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {

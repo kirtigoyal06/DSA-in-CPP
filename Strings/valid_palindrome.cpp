@@ -1,3 +1,7 @@
+// Problem: Check if a given string is a palindrome, considering only
+// alphanumeric characters and ignoring cases.
+// Approach: Use two pointers at start and end, skip non-alphanumeric
+// characters, compare characters ignoring case, move pointers toward each other.
 class Solution {
 public:
     bool isvalid(char ch)
